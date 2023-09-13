@@ -1,0 +1,53 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the section */
+.w3l-content-with-photo-4 {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Style for the container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Style for the image */
+.content-with-photo4-block img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Style for the paragraph */
+.content-with-photo4-block p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style for the link */
+.home-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the link */
+.home-link:hover {
+    background-color: #0056b3;
+    color: #fff; /* Optional: Change text color on hover */
+    text-decoration: none; /* Optional: Remove underline on hover */
+}
